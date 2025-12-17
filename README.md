@@ -1,7 +1,7 @@
 # Mutations Algorithm
 Function compares two elements and checks if string in first element contains all letters of second element.
 
-##Assignment
+## Assignment
 * FreeCodeCamp.org JavaScript Course Assignment
 ### User Stories:
 1. Create a function named mutation that takes an array as its argument.
@@ -10,20 +10,20 @@ Function compares two elements and checks if string in first element contains al
 4. mutation(["hello", "hey"]) should return false because the string hello does not contain a y.
 5. mutation(["Alien", "line"]), should return true because all of the letters in line are present in Alien.
 
-##Tools & Languages Used
+## Tools & Languages Used
 * JavaScript
 
-##Features
+## Features
 * Any two words can be compared using this function.
 * Returns true if element 2 contains all letters in element 1.
 * Returns false if otherwise.
 
-##Concepts Learned
+## Concepts Learned
 * For Loops
 * Iteration
 * Logical NOT
 
-##Examples
+## Examples
 ```
 function mutation(arr) {
   const word1 = arr[0].toLowerCase();
